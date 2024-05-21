@@ -1,0 +1,168 @@
+*{
+    font-family: garamond, times new roman, serif;
+}
+
+header{
+    text-align: right;
+    padding: 15px;
+}
+
+
+.menu{
+    text-align: center; 
+    font-size: 2em; 
+    border-bottom: 2px solid black; 
+    border-top: 2px solid black;
+}
+
+.menu li{
+    list-style-type: none;
+    display: inline-block;
+    text-align: center;
+}
+
+.menu a{
+    color:green;
+    text-decoration: none;
+    padding: 10px;
+    display: inline-block;
+}
+
+a:hover{
+    color: orange;
+}
+
+body{
+   
+}
+#home:hover{
+    color:red;
+    background: orange;
+}
+
+
+.main-panel{
+   padding: 10px;
+   text-align: justify;
+   height: 90vh;
+   background-image: url(newentry.jfif);
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   display: flex;
+   flex-direction: row;
+   align-items: flex-start;
+}
+
+form{
+    background-color: lightgray;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+
+p{
+    padding: 10px;
+    width: 70%;
+    font-size: 1.5em;
+    padding: 30px;
+    margin-top: 150px;
+    opacity: .8;
+}
+
+
+label{
+    font-size: 25px;
+    color: black;
+}
+
+textarea{
+    padding: 10px;
+    text-align: justify;
+}
+
+table{
+    padding: 10px;
+    width: 60%;
+    font-weight: bold;
+    border: 2px solid black;
+    margin: auto;
+    text-align: center;
+}
+
+#rating{
+    text-align: center;
+    margin-top: 10px;
+}
+
+td:hover{
+    background-color: orange;
+}
+
+.tablestyle{
+    padding: 5px;
+    border-radius: 20px;
+}
+
+.tablestyle:hover{
+    background-color: lightgreen;    
+}
+
+audio{
+    float: left;
+    background-color: green;
+    border-radius: 15px;
+    padding: 9px;
+}
+
+.goup{
+    text-decoration: none;
+    color: white;
+    background-color: red;
+    padding: 10px;
+    border-radius: 40px;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 527px){
+    body{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, 100%);
+        gap: 30px;
+        padding: 10px;
+        justify-content: center;
+        align-items: center;
+        min-height: 600px;
+    }
+    
+    img{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    
+    .main-panel{
+        width: 100%;
+        margin-bottom: 10px;
+        font-size: 10px;
+    }
+    
+    audio{
+        width: 100%;
+    }
+    
+    form{
+        width: 100%;
+    }
+    
+    textarea{
+        width:100%;
+    }
+}
+
+footer{
+    padding: 10px;
+    border-top:2px solid black;
+    border-bottom:2px solid black;
+    text-align: center;
+    width: 100%;
+}

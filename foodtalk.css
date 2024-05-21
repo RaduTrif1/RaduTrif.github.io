@@ -1,0 +1,177 @@
+*{
+    font-family: garamond, times new roman, serif;
+}
+
+header{
+    text-align: right;
+    padding: 15px;
+}
+
+.menu{
+    text-align: center; 
+    font-size: 2em; 
+    border-bottom: 2px solid black; 
+    border-top: 2px solid black; 
+}
+
+.menu li{
+    list-style-type: none;
+    display: inline-block;
+    text-align: center;
+}
+
+.menu a{
+    color:green;
+    text-decoration: none;
+    padding: 10px;
+    display: inline-block;
+}
+
+a:hover{
+    color: orange;
+}
+
+img{
+    padding: 20px;
+}
+
+#home:hover{
+    color:red;
+    background: orange;
+}
+
+
+main{
+    position: relative;
+    color: green;
+    padding: 10px;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+section{
+    position: relative;
+    display: inline-block;
+    padding:0px 20px 0px 20px;
+    width: 33%;
+    border-left: 1px solid green;
+    border-right: 1px solid green;
+    height: 100%;
+    flex-direction: column;
+    text-align: justify;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+section:hover{
+    background: lightgray;
+}
+
+table{
+    padding: 10px;
+    width: 60%;
+    font-weight: bold;
+    border: 2px solid black;
+    margin: auto;
+    text-align: center;
+}
+
+#rating{
+    text-align: center;
+    margin-top: 10px;
+}
+
+td:hover{
+    background-color: orange;
+}
+table{
+    padding: 10px;
+    width: 60%;
+    font-weight: bold;
+    border: 2px solid black;
+    margin: auto;
+    text-align: center;
+}
+
+#rating{
+    text-align: center;
+    margin-top: 10px;
+}
+
+td:hover{
+    background-color: orange;
+}
+
+.tablestyle{
+    padding: 5px;
+    border-radius: 20px;
+}
+
+.tablestyle:hover{
+    background-color: lightgreen;    
+}
+
+.tablestyle{
+    border-radius: 10px;
+}
+
+.tablestyle:hover{
+    background-color: lightgreen;    
+}
+
+iframe{
+    float: left;
+    width:400px;
+    height: 100px;
+    background-color: green;
+    border-radius: 15px;
+    padding: 9px;
+}
+
+.goup{
+    text-decoration: none;
+    color: white;
+    background-color: red;
+    padding: 10px;
+    border-radius: 40px;
+    font-weight: bold;
+}
+
+
+@media screen and (max-width: 527px){
+    .main{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, 100%);
+        gap: 30px;
+        padding: 10px;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    img{
+        width: 90%;
+        margin-bottom: 20px;
+    }
+    
+    iframe{
+        width: 100%;
+    }
+    
+    section{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
+
+
+
+footer{
+    padding: 10px;
+    border-top:2px solid black;
+    border-bottom:2px solid black;
+    text-align: center;
+}

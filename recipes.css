@@ -1,0 +1,153 @@
+*{
+    margin: 0 auto;
+    font-family: garamond, times new roman, serif;
+}
+
+header{
+    text-align: right;
+    padding: 15px;
+}
+
+
+.menu{
+    text-align: center; 
+    font-size: 2em; 
+    border-bottom: 2px solid black; 
+    border-top: 2px solid black; 
+}
+
+.menu li{
+    list-style-type: none;
+    display: inline-block;
+    text-align: center;
+}
+
+.menu a{
+    color:green;
+    text-decoration: none;
+    padding: 10px;
+    display: inline-block;
+}
+
+a:hover{
+    color: orange;
+}
+
+
+#home:hover{
+    color:red;
+    background: orange;
+}
+
+.recipe{
+    text-align: center;
+    margin: 20px;
+}
+
+.main-panel{
+    width: 50%;
+    padding: 10px;
+    text-align: justify;
+    flex-wrap: wrap;
+    align-content: flex-start;
+	flex: 1; /* Allow articles to grow and shrink equally */
+    /*margin: 0 10px; /* Add some space between articles */
+    border-bottom: 2px solid black;
+    margin-top: 10px;
+}
+
+main{
+    display: flex;
+    flex-direction: row; /* Arrange articles horizontally */
+}
+
+img{
+    padding: 5px;
+    float: left;
+}
+
+.ingredients{
+    color: black;
+    font-size: 1em;
+}
+
+table{
+    padding: 10px;
+    width: 60%;
+    font-weight: bold;
+    border: 2px solid black;
+    margin: auto;
+    text-align: center;
+}
+
+#rating{
+    text-align: center;
+    margin-top: 10px;
+}
+
+td:hover{
+    background-color: orange;
+}
+
+.tablestyle{
+    padding: 5px;
+    border-radius: 20px;
+}
+
+.tablestyle:hover{
+    background-color: lightgreen;    
+}
+
+audio{
+    float: left;
+    background-color: green;
+    border-radius: 15px;
+    padding: 9px;
+}
+
+.goup{
+    text-decoration: none;
+    color: white;
+    background-color: red;
+    padding: 10px;
+    border-radius: 40px;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 527px){
+    section{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, 100%);
+        gap: 30px;
+        padding: 10px;
+        justify-content: center;
+        align-items: center;
+        min-height: 600px;
+    }
+    
+    img{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    
+    iframe{
+        width: 100%;
+    }
+    
+    .main-panel{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    
+    audio{
+        width: 100%;
+    }
+}
+
+
+footer{
+    padding: 10px;
+    text-align: center;
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+}
