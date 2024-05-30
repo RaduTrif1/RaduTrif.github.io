@@ -31,6 +31,10 @@ a:hover{
     color: orange;
 }
 
+.searchbar{
+    width: 50%;
+}
+
 img{
     padding: 20px;
 }
@@ -85,9 +89,6 @@ table{
     margin-top: 10px;
 }
 
-.checked:hover{
-    background-color: orange;
-}
 
 table{
     padding: 10px;
@@ -103,31 +104,19 @@ table{
     margin-top: 10px;
 }
 
-td:hover{
-    background-color: orange;
-}
-
 .tablestyle{
     padding: 5px;
     border-radius: 20px;
-}
-
-.tablestyle:hover{
-    background-color: lightgreen;    
 }
 
 .tablestyle{
     border-radius: 10px;
 }
 
-.tablestyle:hover{
-    background-color: lightgreen;    
-}
-
 iframe{
     float: left;
     width:400px;
-    height: 100px;
+    height: auto;
     background-color: green;
     border-radius: 15px;
     padding: 9px;
@@ -142,6 +131,9 @@ iframe{
     font-weight: bold;
 }
 
+.checked:hover{
+    background-color: orange;
+}
 
 @media screen and (max-width: 527px){
     .main{
