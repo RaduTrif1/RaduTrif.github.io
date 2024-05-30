@@ -95,24 +95,22 @@ table{
     margin-top: 10px;
 }
 
-td:hover{
-    background-color: orange;
-}
 
 .tablestyle{
     padding: 5px;
     border-radius: 20px;
 }
 
-.tablestyle:hover{
-    background-color: lightgreen;    
-}
 
 audio{
     float: left;
     background-color: green;
     border-radius: 15px;
     padding: 9px;
+}
+
+.checked:hover{
+    background-color: orange;
 }
 
 .goup{
