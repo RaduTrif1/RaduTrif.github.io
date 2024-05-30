@@ -44,7 +44,6 @@ img{
     background: orange;
 }
 
-
 main{
     position: relative;
     color: green;
@@ -89,28 +88,9 @@ table{
     margin-top: 10px;
 }
 
-
-table{
-    padding: 10px;
-    width: 60%;
-    font-weight: bold;
-    border: 2px solid black;
-    margin: auto;
-    text-align: center;
-}
-
-#rating{
-    text-align: center;
-    margin-top: 10px;
-}
-
 .tablestyle{
     padding: 5px;
     border-radius: 20px;
-}
-
-.tablestyle{
-    border-radius: 10px;
 }
 
 iframe{
@@ -129,6 +109,10 @@ iframe{
     padding: 10px;
     border-radius: 40px;
     font-weight: bold;
+}
+
+td:hover{
+    background-color: orange;
 }
 
 .checked:hover{
