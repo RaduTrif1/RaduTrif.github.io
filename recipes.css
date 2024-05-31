@@ -3,6 +3,9 @@
     font-family: garamond, times new roman, serif;
 }
 
+html{
+	scroll-behavior: smooth;
+}
 header{
     text-align: right;
     padding: 15px;
