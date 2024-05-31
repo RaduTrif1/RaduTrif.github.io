@@ -94,10 +94,6 @@ td:hover{
     border-radius: 20px;
 }
 
-.tablestyle:hover{
-    background-color: lightgreen;    
-}
-
 audio{
     float: left;
     background-color: green;
