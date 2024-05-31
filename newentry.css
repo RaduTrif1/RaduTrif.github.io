@@ -109,7 +109,7 @@ audio{
     padding: 9px;
 }
 
-.checked:hover{
+td:hover{
     background-color: orange;
 }
 
