@@ -47,7 +47,7 @@ body{
 .main-panel{
    padding: 10px;
    text-align: justify;
-   height: 90vh;
+   height: 100vh;
    background-image: url(newentry.jfif);
    background-size: cover;
    background-position: center;
